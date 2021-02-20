@@ -1,0 +1,44 @@
+.tags-nav {
+    position: relative;
+    border-top: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+    user-select: none;
+    width: 100%;
+    height: 40px;
+    line-height: 38px;
+}
+.btn-con {
+    position: absolute !important;
+    top: 0px;
+    width: 32px;
+    height: 100% !important;
+    background: #fff;
+    padding-top: 3px;
+    z-index: 10;
+}
+.close-con {
+    right: 0;
+}
+.left-btn {
+    left: 0;
+}
+.right-btn {
+    right: 32px;
+}
+
+.scroll-outer {
+    position: absolute;
+    left: 32px;
+    right: 61px;
+    top: 0;
+    height: 100%;
+}
+.scroll-body {
+    display: inline-block;
+    padding: 1px 4px 0;
+    position: absolute;
+    overflow: visible;
+    white-space: nowrap;
+    transition: left .3s ease;
+    cursor: pointer;
+}
